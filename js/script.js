@@ -15,19 +15,14 @@ const nav = document.querySelector('.nav'),
   allSection = document.querySelectorAll('.section'),
   totalSection = allSection.length;
 
-  window.addEventListener('load', ()=>{
-    sectionHidden();
-  })
 
 for(let i=0;i<totalNavList;i++){
   const a = navList[i].querySelector('a');
   a.addEventListener('click',function(){
-    sectionReveled();
     removeBackSection();
     for(let j=0;j<totalNavList;j++){
       if(navList[j].querySelector('a').classList.contains('active')){
         addBackSection(j);
-        // allSection[j].classList.add('back-section');
       }
       navList[j].querySelector('a').classList.remove('active');
     }
@@ -69,9 +64,10 @@ function showSection(element){
   }
   const target = element.getAttribute('href').split('#')[1];
   document.querySelector('#'+ target).classList.add('active');
+  document.querySelector('#'+ target).classList.remove('hidden');
 }
 
-function update(element){
+function updateName(element){
   for(let i=0;i<totalNavList;i++){
     navList[i].querySelector('a').classList.remove('active');
     const target = element.getAttribute('href').split('#')[1];
@@ -83,7 +79,6 @@ function update(element){
 
 document.querySelector('.hire-me').addEventListener('click',function(){
   const sectionIndex = this.getAttribute('data-section-index');
-  sectionReveled()
   showSection(this);
   updateName(this);
   removeBackSection();

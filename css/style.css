@@ -343,6 +343,7 @@ h3.my-profession{
 .home-info p{
     margin-bottom: 70px;
     font-size: 20px;
+    /* text-align: justify; */
     color: var(--text-black-700);
 }
 
