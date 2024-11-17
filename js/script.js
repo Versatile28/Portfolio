@@ -112,12 +112,15 @@ function getAge(dateString) {
 
 document.querySelector('.about .about-content .personal-info .info-item .age span').textContent =`${getAge('1999-12-28')}`;
 
+const emailLink = document.querySelectorAll('.email-link');
+console.log(emailLink);
 function emailMe(){
   const email = "satyakipal111@gmail.com";
     const emailSubject = "Hello, Satyaki!";
     const emailBody = "I would like to discuss something important.";
-
-    const emailLink = document.getElementById('email-link');
-    emailLink.href = `mailto:${email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    for(let i=0;i<emailLink.length;i++){
+      emailLink[i].href = `mailto:${email}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
+    }
+    
 }
 emailMe();
