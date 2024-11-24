@@ -58,6 +58,10 @@ ul{
   z-index: 1;
 }
 
+.section.back-section1{
+   z-index: 0;
+ }
+
 .section.active{
   z-index: 2;
   opacity: 1;
@@ -490,7 +494,7 @@ h3.my-profession{
 .about .about-content .skills .skill-item h5{
    line-height: 40px;
    font-weight: 600;
-   font-size: 16px;
+   font-size: 14px;
    text-align: center;
    color: var(--text-black-700);
    background-color: var(--skin-color);
@@ -685,6 +689,65 @@ h3.my-profession{
   display: block;
 }
 
+/* Project*/
+
+.project{
+   min-height: 100vh;
+   display: flex;
+   color: var(--text-black-900);
+}
+
+.project .project-info{
+   flex: 0 0 60%;
+   max-width: 60%;
+}
+
+.project-info h3{
+   font-size: 28px;
+   margin-bottom: 10px ;
+}
+
+.project-info .technology{
+   display: flex;
+   justify-content: end;
+   margin-bottom: 15px ;
+   gap: 10px;
+}
+
+.project-info .technology span{
+   font-size: 16px;
+   font-weight: 400;
+   padding: 5px;
+   border: none;
+   border-radius: 8px;
+   color: var(--skin-color);
+   background: var(--bg-black-100);
+}
+
+.project .project-info p{
+   margin-bottom: 70px;
+   font-size: 20px;
+   color: var(--text-black-700);
+}
+
+.project .openPage{
+   position: relative;
+   left: 20px;
+}
+
+.project .project-img{
+   flex: 0 0 40%;
+   max-width: 40%;
+   text-align: center;
+   position: relative;
+}
+
+.project .project-img img{
+   margin: auto;
+   border-radius: 5px;
+   height: 400px;
+}
+
 /* Contact */
 
 .contact-title{
@@ -819,12 +882,16 @@ h3.my-profession{
     max-width: 50%;
   }
   .about .about-content .education,
-  .home .home-info{
+  .home .home-info,
+  .project .project-info{
     flex: 0 0 100%;
     max-width: 100%;
   }
   .home .home-img{
     display: none;
+  }
+  .project .container .project-img{
+   display: none;
   }
 }
 
