@@ -2,63 +2,63 @@ let data = [
    {
       id: '1',
       name: 'Cataract Detection using Deep Learning',
-      count: '2',
-      skills: ['Python', 'VGG-19'],
-      desc: "I'm a web designer, specializing in creating visually appealing and user-friend interfaces that enhance user experience on websites and web applications. My role involves working with HTML, CSS, JavaScript, and design tools to bring concepts to life and ensure responsive, accessible designs.",
-      github: 'https://github.com/Versatile28/QR-code-component',
-      page: 'https://versatile28.github.io/QR-code-component/',
-      image: 'https://wallpapers.com/images/hd/hd-nature-landscape-portrait-wwvfe5ydt4y38zk3.webp',
+      count: '4',
+      skills: ['Python', 'VGG-19', 'CNN', 'Machine Learning'],
+      desc: "This project focuses on developing an automated system for cataract detection using deep learning techniques, specifically leveraging the VGG19 architecture. The solution aims to provide a non-invasive, scalable, and cost-effective diagnostic tool, enhancing early detection and accessibility in ophthalmic healthcare. Using a curated dataset of fundus images sourced from publicly available platforms like Kaggle and GitHub, the system was designed to classify cataract and non-cataract cases effectively. Images were preprocessed through resizing, normalization, and data augmentation techniques, including rotation, flipping, and scaling, to improve generalization and address dataset imbalances. The VGG19 model, fine-tuned for binary classification, utilized ReLU activations and a softmax output layer, optimized with cross-entropy loss and the Adam optimizer. Achieving a validation accuracy of 90.56% and a test accuracy of 84.25%, the model demonstrated strong potential for real-world deployment. Insights gained include the critical role of preprocessing, addressing class imbalance, and evaluating performance using confusion matrices and classification metrics, marking a significant step toward integrating AI into ophthalmic healthcare systems.",
+      github: 'https://github.com/Versatile28/Cataract-Detection-Using-Deep-Learning',
+      page: 'https://github.com/Versatile28/Cataract-Detection-Using-Deep-Learning',
+      image: ''
    },
    {
       id: '2',
-      name: 'Telemedicine',
-      count: '5',
-      skills: ['HTML', 'CSS', 'JS', 'PHP', 'SQL'],
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      github: 'https://github.com/Versatile28/blog-preview-card',
-      page: 'https://versatile28.github.io/blog-preview-card/',
-      image: 'https://pbs.twimg.com/media/C2ZpYnHVQAAmWHT?format=jpg&name=large',
+      name: 'Weather App',
+      count: '4',
+      skills: ['HTML', 'CSS', 'JS', 'OpenWeatherMap API'],
+      desc: "The Weather App is a responsive and interactive web application designed to provide real-time weather information for any city. Built using HTML, CSS, and JavaScript, it integrates the OpenWeatherMap API to fetch accurate weather details such as temperature, humidity, wind speed, and current conditions, all presented with appropriate icons for better user understanding. The app features a clean and modern layout with a minimalist style, ensuring a seamless experience across different devices. It dynamically updates weather data, displays visually appealing icons, and includes error-handling mechanisms for invalid city names or unavailable data. Designed with responsiveness in mind, the Weather App adapts smoothly to various screen sizes, making it a reliable tool for users seeking quick and accurate weather updates.",
+      github: 'https://github.com/Versatile28/Weather-App',
+      page: 'https://versatile28.github.io/Weather-App/',
+      image: '../images/project/weather_app.png',
    },
    {
       id: '3',
-      name: 'Telemedicine',
-      count: '5',
-      skills: ['HTML', 'CSS', 'JS', 'PHP', 'SQL'],
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      github: 'https://github.com/Versatile28/blog-preview-card',
-      page: 'https://versatile28.github.io/blog-preview-card/',
-      image: 'https://pbs.twimg.com/media/C2ZpYnHVQAAmWHT?format=jpg&name=large',
+      name: 'Basic Calculator',
+      count: '2',
+      skills: ['HTML', 'CSS'],
+      desc: "This project is a basic calculator web application designed with a clean and modern layout using HTML and CSS. The interface is minimalistic yet functional, with a focus on responsive design to ensure usability across various devices. The calculator layout was structured using semantic HTML5, organizing buttons and the display for intuitive functionality. Styled with CSS, the design incorporates visually appealing elements such as hover effects on buttons to enhance interactivity. Through this project, I gained valuable insights into creating responsive layouts and crafting an engaging user experience using fundamental web development techniques.",
+      github: 'https://github.com/Versatile28/Calculator',
+      page: 'https://versatile28.github.io/Calculator/',
+      image: '../images/project/calculator.png',
    },
    {
       id: '4',
-      name: 'Telemedicine',
-      count: '5',
-      skills: ['HTML', 'CSS', 'JS', 'PHP', 'SQL'],
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      github: 'https://github.com/Versatile28/blog-preview-card',
-      page: 'https://versatile28.github.io/blog-preview-card/',
-      image: 'https://pbs.twimg.com/media/C2ZpYnHVQAAmWHT?format=jpg&name=large',
+      name: 'Password Generator',
+      count: '3',
+      skills: ['HTML', 'CSS', 'JS'],
+      desc: "The Password Generator App is a user-friendly tool designed to create secure and random passwords, ensuring enhanced security for personal and professional accounts. Built with HTML, CSS, and JavaScript, the app features a modern and clean layout with a responsive design, making it accessible across all devices. Users can customize their passwords by selecting the desired length and choosing from options such as uppercase letters, lowercase letters, numbers, and special characters. The app instantly generates a password based on the chosen criteria and includes a convenient `Copy to Clipboard` functionality. With intuitive error handling and real-time updates, the Password Generator App offers a seamless and secure experience for users seeking robust password solutions.",
+      github: 'https://github.com/Versatile28/Password_generator',
+      page: 'https://versatile28.github.io/Password_generator/',
+      image: '../images/project/password_generator.png',
    },
    {
       id: '5',
-      name: 'Telemedicine',
-      count: '5',
-      skills: ['HTML', 'CSS', 'JS', 'PHP', 'SQL'],
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      github: 'https://github.com/Versatile28/blog-preview-card',
-      page: 'https://versatile28.github.io/blog-preview-card/',
-      image: 'https://pbs.twimg.com/media/C2ZpYnHVQAAmWHT?format=jpg&name=large',
+      name: 'Traval Web Page - My India',
+      count: '3',
+      skills: ['HTML', 'CSS', 'JS'],
+      desc: "The My India travel webpage is a dynamic and interactive website designed to provide users with an engaging experience while exploring travel destinations, activities, and booking options. Built using HTML, CSS, and JavaScript, the site features a modern, responsive layout with smooth transitions and dynamic sliders, offering a visually appealing and user-friendly interface. Key functionalities include a dynamic slider and carousel to highlight popular destinations and travel packages, a responsive design ensuring compatibility across devices, and a functional form for inquiries or trip bookings. The use of semantic HTML5, Flexbox, and responsive design techniques ensures a seamless browsing experience. Hosted on Netlify for fast loading and reliability, this project combines technical precision and aesthetic appeal to cater to the needs of travelers.",
+      github: 'https://github.com/Versatile28/My-India',
+      page: 'https://my-india.netlify.app/',
+      image: '../images/project/my_india.png',
    },
    {
       id: '6',
-      name: 'Telemedicine',
-      count: '5',
-      skills: ['HTML', 'CSS', 'JS', 'PHP', 'SQL'],
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
-      github: 'https://github.com/Versatile28/blog-preview-card',
-      page: 'https://versatile28.github.io/blog-preview-card/',
-      image: 'https://pbs.twimg.com/media/C2ZpYnHVQAAmWHT?format=jpg&name=large',
-   },
+      name: 'Mapty - Workout Tracking App',
+      count: '4',
+      skills: ['HTML', 'CSS', 'JS', 'Leaflet.js'],
+      desc: "Mapty is a feature-rich workout tracking app designed to enhance fitness journeys by combining real-time geolocation, interactive maps, and persistent data storage. Built with HTML, CSS, JavaScript, and the Leaflet.js library, the app enables users to log and visualize workouts like running or cycling directly on a map. Leveraging the Geolocation API, Mapty pinpoints the user's location, allowing for the placement of workout markers and seamless integration of geospatial data. Its user-friendly interface includes forms for logging workout details such as distance, duration, and type, while ensuring responsive performance across all devices. Workout data is saved in the browser's local storage, preserving user progress even after app closures or page refreshes. With robust error handling and validation, Mapty offers a reliable and intuitive experience for fitness enthusiasts.",
+      github: 'https://github.com/Versatile28/Mapty',
+      page: 'https://versatile28.github.io/Mapty/',
+      image: '',
+   }
 ];
 
 /* typing animation */
@@ -238,6 +238,21 @@ function fetchData() {
             github = document.querySelector('.project .github'),
             openPage = document.querySelector('.project .openPage'),
             projectImg = document.querySelector('.project .project-img img');
+
+         if(project.id==1 || project.id==6){
+            console.log('1');
+            document.querySelector('.project .project-info').style.flex = '0 0 100%';
+            document.querySelector('.project .project-info').style.maxWidth = '100%';
+            document.querySelector('.project .container .project-img').style.display = 'none';
+            document.querySelector('.project .container .project-img').style.flex = 'none';
+            document.querySelector('.project .container .project-img').style.maxWidth = '0';
+         }else{
+            document.querySelector('.project .project-info').style.flex = '0 0 60%';
+            document.querySelector('.project .project-info').style.maxWidth = '60%';
+            document.querySelector('.project .container .project-img').style.display = 'block';
+            document.querySelector('.project .container .project-img').style.flex = '0 0 40%';
+            document.querySelector('.project .container .project-img').style.maxWidth = '40%';
+         }
 
          projectName.textContent = `${project.name}`;
          for (let i = 0; i < project.count; i++) {
