@@ -496,7 +496,7 @@ h3.my-profession{
    font-weight: 600;
    font-size: 14px;
    text-align: center;
-   color: var(--text-black-700);
+   color: white;
    background-color: var(--skin-color);
    border-radius: 20px;
 }
